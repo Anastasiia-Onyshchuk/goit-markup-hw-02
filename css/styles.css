@@ -1,11 +1,89 @@
-/* main color #757575 */
-
-/* Navigation */
-.site-nav
+/* Main Page */
+/* primary color #757575 */
 /* secondary color #212121 */
+/* accent color #FFFFFF */
 /* backgfround color for header #FFFFFF */
 /* background color section 2 #2F303A */
 /* background color section 3 #F5F5F5 */
 /* background color section 4 #F5F4FA */
 /* backgrund color cards #FFFFFF */
 /* background color footer #2F303A */
+:root{
+    --primary-text-color:rgba(117, 117, 117, 1);
+    --secondary-text-color: #212121;
+    --accent-color: #FFFFFF;
+   --alert-primery-text-color:#2196F3;
+}
+.list{
+    list-style: none;
+}
+body {
+color: var(--primary-text-color);
+}
+/* Logo */
+.logo{
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.logo-part{
+    color: black;
+}
+/* Navigation */
+.site-nav .link{
+    color: var(--secondary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.site-nav .link :hover, .site-nav .link : :focus{
+    color: #2196F3;
+}
+/* Hero */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* text-align: center; */
+    letter-spacing: 0.06em;
+    text-transform: uppercase
+}
+/* Чим ми займаємось */
+.activity-title{
+    visibility: hidden;
+}
+/* Titles */
+.activity-title, 
+.team-title {
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+/* Advantages */
+.advantages-list{
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+.advantages-list .title{
+    color:#212121;
+}
