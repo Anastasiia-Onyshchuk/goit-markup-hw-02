@@ -141,7 +141,6 @@ font-family: 'Roboto';
 }
 .advantages-list{
 font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -253,7 +252,6 @@ font-family: 'Roboto';
 
 .portfolio-text{
     font-family: 'Roboto';
-        font-weight: 400;
         font-size: 16px;
         line-height: 30px;
 }
