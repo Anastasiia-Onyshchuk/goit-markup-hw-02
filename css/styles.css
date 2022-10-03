@@ -32,10 +32,9 @@ ul {
     color: #2196F3;
 text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,2;
     letter-spacing: 0.03em;
 }
 .logo-part{
@@ -44,11 +43,9 @@ text-decoration: none;
 /* Navigation */
 .nav .link{
     color: var(--secondary-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,1;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -61,11 +58,9 @@ text-decoration: none;
 }
 .header-contacts .contacts{
     color: #757575;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1,1;
         letter-spacing: 0.02em;
         text-decoration: none;
 }
@@ -79,12 +74,9 @@ color: var(--hover-color) ;
 }
 .hero-title{
     color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    /* text-align: center; */
+    line-height: 1,4;
     letter-spacing: 0.06em;
     text-transform: uppercase
 }
@@ -94,10 +86,10 @@ color: var(--hover-color) ;
     background-color: #2196F3;
     border: 0;
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1,8;
+        letter-spacing:0.06em;
 }
 .main-button:hover{
     color: #FFFFFF;
@@ -109,11 +101,11 @@ color: var(--hover-color) ;
 color: var(--secondary-text-color);
 background-color: #F5F4FA;
 border: 0;
-font-family:'Roboto';
-    font-style: normal;
+font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,6;
+letter-spacing: 0.03em;
 }
 .button:hover, 
 .button:focus{
@@ -126,11 +118,9 @@ font-family:'Roboto';
 /* Our activity */
 .activity-title{
    color: var(--secondary-text-color);
-font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,2;
     letter-spacing: 0.03em;
 }
 
@@ -140,36 +130,30 @@ font-family: 'Roboto';
     background-color: #F5F5F5;;
 }
 .advantages-list{
-font-family: 'Roboto';
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
 }
 .advantages-list h3{
-font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,2;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    text-transform: uppercase
 }
 /* Team */
 .team{
     background-color: #F5F4FA;
 }
 .team h3{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1,2;
         color: var(--secondary-text-color);
 }
 .team-title{
     color: var(--secondary-text-color);
-font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -177,11 +161,9 @@ font-family: 'Roboto';
 }
 .team-photos{
     background-color: #FFFFFF;
-font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,2;
     letter-spacing: 0.03em;
 }
 /* Footer  */
@@ -190,35 +172,24 @@ font-family: 'Roboto';
 }
 .footer .logo{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,2;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
 .footer .logo-part{
     color: #FFFFFF;
 }
-.footer .contacts{
-color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        text-decoration: none;
-}
+
 .footer .map{
 color: #FFFFFF;
 text-decoration: none;
 font-style: normal;
-font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     letter-spacing: 0.03em;
 }
 .footer .map:hover,
@@ -227,11 +198,10 @@ font-family: 'Roboto';
 }
 .footer .contacts{
     color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1,7;
         letter-spacing: 0.03em;
 }
 .footer .contacts:hover,
@@ -241,17 +211,18 @@ font-family: 'Roboto';
 
 /* Portfolio */
 .portfolio-cards h3{
-font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     background-color: #FFFFFF;
     color:var(--secondary-text-color);
+    letter-spacing: 0.06em;
 }
 
 .portfolio-text{
     font-family: 'Roboto';
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1,8;
+        letter-spacing: 0.03em;
 }
